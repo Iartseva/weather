@@ -1,0 +1,33 @@
+.weather__more {
+  width: 343px;
+  height: 47px;
+  padding: 0 10px 0 21px;
+  margin-bottom: 20px;
+  background: rgba(16, 64, 132, .25);
+  border-radius: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+}
+
+.weather__more-info {
+  display: flex;
+}
+
+.weather__more-img {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.weather__more-text {
+  display: flex;
+  align-self: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}

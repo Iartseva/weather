@@ -1,0 +1,65 @@
+.weather-by-hour {
+  width: 343px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(16, 64, 132, .25);
+  border-radius: 20px;
+  list-style: none;
+  align-self: center;
+}
+
+.weather-by-hour__title {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 14px;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.weather-by-hour__list {
+  display: flex;
+  overflow-y: auto;
+}
+
+.weather-by-hour__list::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.weather-by-hour__item {
+  width: 70px;
+  height: 155px;
+  margin: 0 12px 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.weather-by-hour__temp {
+  margin: 13px auto 0;
+}
+
+.weather-by-hour__image {
+  width: 100%;
+  height: auto;
+}
+
+.weather-by-hour__time {
+  margin: 0 auto 20px;
+}
+
+.weather-by-hour__item:hover {
+  border: 1px solid #8EBBFF; 
+  border-radius: 25px;
+}

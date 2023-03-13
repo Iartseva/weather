@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './Weather.css';
 import sunny from '../../image/sunny.png';
 import cloudy from '../../image/cloudy.png';
-import sun from '../../image/sun.png';
 import convertTemp from '../../utils/utils';
 
 function Weather (props) {

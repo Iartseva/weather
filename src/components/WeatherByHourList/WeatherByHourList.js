@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './WeatherByHourList.css';
-/* import picbyhour from '../../image/picbyhour.png'; */
 import WeatherByHourItem from '../WeatherByHourItem/WeatherByHourItem';
 
 

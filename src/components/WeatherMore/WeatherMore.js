@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './WeatherMore.css';
 import humidity from '../../image/humidity.png';
 import wind from '../../image/wind.png';
